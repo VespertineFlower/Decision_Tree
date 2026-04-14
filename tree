@@ -1,0 +1,25 @@
+digraph {
+	1 [label="1
+纹理" shape=box style=rounded]
+	2 [label="2
+密度 <= 0.3815" shape=box style=rounded]
+	3 [label="3
+Leaf: 否" shape=circle style=filled]
+	4 [label="4
+Leaf: 是" shape=circle style=filled]
+	5 [label="5
+触感" shape=box style=rounded]
+	6 [label="6
+Leaf: 否" shape=circle style=filled]
+	7 [label="7
+Leaf: 是" shape=circle style=filled]
+	8 [label="8
+Leaf: 否" shape=circle style=filled]
+	1 -> 2 [label="清晰"]
+	1 -> 5 [label="稍糊"]
+	1 -> 8 [label="模糊"]
+	2 -> 3 [label="<0.3815"]
+	2 -> 4 [label=">0.3815"]
+	5 -> 6 [label="硬滑"]
+	5 -> 7 [label="软粘"]
+}

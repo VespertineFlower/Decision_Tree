@@ -1,0 +1,4 @@
+此项目vespertine是对西瓜书决策树的练习
+使用的chatgpt写了可视化部分,以及debug时的AI使用
+tree图形显示需要sudo apt install graphviz
+不保证没有任何错误
